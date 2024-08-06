@@ -7,7 +7,7 @@ const Header = ({ query, category }: Props) => {
   if (query && category) {
     return (
       <h1 className="heading3 self-start text-white-800">
-        Search results for "{query}" in{" "}
+        Search results for &quot;{query}&quot; in{" "}
         <span className="capitalize">{category}</span>
       </h1>
     );
@@ -16,7 +16,7 @@ const Header = ({ query, category }: Props) => {
   if (query) {
     return (
       <h1 className="heading3 self-start text-white-800">
-        Search results for "{query}"
+        Search results for &quot;{query}&quot;
       </h1>
     );
   }
